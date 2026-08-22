@@ -2,7 +2,7 @@
 
 > Multi-stop AI-powered travel itinerary and route planning web application built with React, Vite, Tailwind CSS, and shadcn/ui.
 
-![Live Demo](https://sprint-my-trip.vercel.app/)
+![SprintMyTrip](https://sprint-my-trip.vercel.app/)
 
 ---
 

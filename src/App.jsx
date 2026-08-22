@@ -1,16 +1,12 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-// import ErrorElement from "./components/ErrorElement";
+
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
 import Home from "./components/Home";
-// import ItineraryDisplay from "./components/ItineraryDisplay";
+
 import { lazy, Suspense } from "react";
 import ItineraryGeneratorSkeleton from "@/pages/ItineraryGeneratorSkeleton";
-
-// import RecentItineraries from "./components/RecentItineraries";
-
-// import ItineraryGenerator from "./components/ItineraryGenerator";
 
 const ItineraryGenerator = lazy(() => import("./pages/ItineraryGenerator"));
 

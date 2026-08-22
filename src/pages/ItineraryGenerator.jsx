@@ -1,4 +1,3 @@
-// src/components/ItineraryGenerator.jsx
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -9,7 +8,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Input } from "@/components/ui/input";
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 
-import { AlertCircle, GripVertical, Plus, X, MapPin, Van, ArrowLeftRight, Plane } from "lucide-react";
+import { AlertCircle, GripVertical, Plus, X, MapPin, Van, ArrowLeftRight, Plane, Zap } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Separator } from "@/components/ui/separator";
 import { Spinner } from "@/components/ui/spinner";
@@ -289,7 +288,9 @@ const ItineraryGenerator = () => {
                       <span>{loadingText}</span>
                     </span>
                   ) : (
-                    "Generate Route"
+                    <>
+                      <Zap /> Sprint
+                    </>
                   )}
                 </Button>
               </CardFooter>

@@ -1,7 +1,6 @@
-// import { Globe } from "./ui/globe";
 import Text3DFlip from "@/components/ui/text-3d-flip";
 import ButtonWithIcon from "./ui/button-01";
-// import { Link } from "react-router-dom";
+
 import { lazy, Suspense } from "react";
 
 const Globe = lazy(() => import("./ui/globe").then((module) => ({ default: module.Globe })));
