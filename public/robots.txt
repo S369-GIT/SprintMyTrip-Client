@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Prevent search engines from indexing state-dependent or dynamic client pages
+Disallow: /ItineraryDisplay
+Disallow: /RecentItineraries
+
+Sitemap: https://sprintmytrip.vercel.app/sitemap.xml
