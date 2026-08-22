@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
-import Home from "./components/Home";
+import Home from "@/pages/Home";
 
 import { lazy, Suspense } from "react";
 import ItineraryGeneratorSkeleton from "@/pages/ItineraryGeneratorSkeleton";
