@@ -1,4 +1,3 @@
-// src/components/RecentItineraries.jsx
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useTheme } from "next-themes";

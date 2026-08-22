@@ -1,4 +1,3 @@
-// src/components/ItineraryDisplay.jsx
 import { useRef, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { useReactToPrint } from "react-to-print";
