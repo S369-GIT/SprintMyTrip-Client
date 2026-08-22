@@ -6,7 +6,7 @@ import { MagicCard } from "@/components/ui/magic-card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Clock, ChevronRight, Trash2, MapPin, Compass, Plus } from "lucide-react";
-import useThemeStatus from "../hooks/useThemeStatus";
+import useThemeStatus from "@/hooks/useThemeStatus";
 
 import {
   AlertDialog,

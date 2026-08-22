@@ -9,7 +9,7 @@ import { Card, CardTitle, CardHeader, CardContent } from "@/components/ui/card";
 import { MagicCard } from "@/components/ui/magic-card";
 import { Button } from "@/components/ui/button";
 import TravelCard from "@/components/ui/travelCard";
-import useThemeStatus from "../hooks/useThemeStatus";
+import useThemeStatus from "@/hooks/useThemeStatus";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { Field, FieldGroup } from "@/components/ui/field";

@@ -1,9 +1,9 @@
 import Text3DFlip from "@/components/ui/text-3d-flip";
-import ButtonWithIcon from "./ui/button-01";
+import ButtonWithIcon from "@components/ui/button-01";
 
 import { lazy, Suspense } from "react";
 
-const Globe = lazy(() => import("./ui/globe").then((module) => ({ default: module.Globe })));
+const Globe = lazy(() => import("@/components/ui/globe").then((module) => ({ default: module.Globe })));
 
 const Home = () => {
   const structuredData = {
