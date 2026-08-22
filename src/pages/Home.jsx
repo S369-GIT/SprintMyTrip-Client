@@ -1,5 +1,5 @@
 import Text3DFlip from "@/components/ui/text-3d-flip";
-import ButtonWithIcon from "@components/ui/button-01";
+import ButtonWithIcon from "@/components/ui/button-01";
 
 import { lazy, Suspense } from "react";
 
